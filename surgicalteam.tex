@@ -1,0 +1,23 @@
+\section{The Surgical Team}
+Given the observation that efficiency decreases with the number of workers on a team, large system design may seem hopeless.  One proposed solution is the idea of a surgical team.  The proposed team is surgical in two ways: it is designed to tackle a particular issue and it is composed of a small amount of people who each have a particular role.  The motivation for such a team is not only a result of Brooks's Law, but also the insight of a study by Sackman, Erikson, and Grant.  It was found that on an average programming team, the average ratio between the highest and lowest productivity between members was 10:1, an extraordinarily large number.  Moreover, the program quality (measured in terms of speed and resource usage) was on average 5:1.  Therefore it seams, programming work should not be distribued equally.  Harlan Mills proposed the surgical team as a solution, Brooks created the following 9 roles to describe one possible realization.
+
+\begin{itemize}
+\item[] The Surgeon\\
+Also known as the chief programmer, he designs the program, codes it, tests it, and writes the documentation.  He should have great talent and at least ten years of experience.
+\item[] The Copilot\\
+The copilot is able to do anything that the surgeon can do, but is less experienced and therefore less efficient.  He may on occasion write code, but is primarily useful in thinking of new general strategies, representing his team to others, and giving advice to the surgeon.
+\item[] The Administrator\\
+The surgeon has final say on all oersonnel, budget, and space issues however he cannot afford to spend much time on these.  Thus the administrator is necessary to handle and track these issues, and provide necessary information to the surgeon strictly when needed.  
+\item[] The Editor\\
+The editor is strictly in charge of documentation, taking the surgeon's first draft, editing it, and producing a final standalone product.
+\item[] The Secretaries\\
+Both the administrator and the surgeon each need a secretary for handling day to day activities, scheduling, and non-product files.
+\item[] The Program Clerk\\
+The program clerk is in charge of maintaining technical records including documentation, code modules, and test outputs and evaluations.  This member is in charge of making all computer runs visible to all teams members in a useful way.
+\item[] The Toolsmith\\
+The surgeon requires a set of tools to do his core work, programming.  There are many software libraries built for building more software including tasks like version control, text editing, and interactive debugging.  The toolsmith is in charge of assuring that all of these functionalities are provided reliably.
+\item[] The Tester\\
+The tester is an extremely important role, given that half of the recommended schedule is devoted to testing.  The tester is in charge of generating tests and generating testing code so tests can be run quickly and systematically.
+\item[] The Language Lawyer\\
+The language laywer is in charge of having very specialized and deep knowledge of languages.  He is useful for finding very efficient ways of performing a specific task, or hacks to perform obscure actions.  He may serve multiple teams.
+\end{itemize}

@@ -1,0 +1,10 @@
+\section{Software Specific Techniques}
+Brooks lays forward several specific schemes for testing and developing software programs.  Many of these schemes are specific to software -- some are made easier by being in a software environment, and some are necessary only because we are in a software environemnt.
+
+Brooks says that the most subtle bugs ``are system bugs arising from mismatched assumptions made by the authors of various components''.  That is, if one tries to separate a task into smaller portions, they must make sure that the portions match at the boundary.  Therefore careful attention must be paid by managers when defining what each component is, what its inputs and outputs are, how fast it must run, and how much space it must use.  This can be ensured by ``testing the specification'', handing the specification to an outside group of people who won't be developing it, and having them audit it.  Brooks claims that developers will happily fill in the gaps of the specification rather than pointing them out.
+
+Top-down design is the widely used practice of taking an abstract construct and breaking it down into smaller and smaller pieces.  This is already popular in all fields of engineering, however it is especially useful and necessary in software engineering because of customizability.  In other fields of engineering, there is often the constraint of using already existing chips and materials simply because it would cost too much to manufacture them.  Therefore bottom up engineering is sometimes more useful.  However in software, it is very easy to make small components, or modify already existing components to fit your purpose, espcially since their is no physical cost associated with it.
+
+Brooks also says to ``build plenty of scaffolding'', or code which is not intended to be in the final product, but help future debugging.  He says ``it is not unreasonable for there to be half as much code in scaffolding as there is in product.  For example, dummy components which reads and tests input data format and returns meaningless, but correctly formatted results.  
+
+
